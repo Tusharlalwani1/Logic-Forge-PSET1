@@ -24,17 +24,3 @@ vector<int> teamContributionMultiplier(const vector<int>& contributions){
     return impact;
 
 }
-
-int main()
-{
-    vector<int> contributions = {1, 2, 3, 4};
-    vector<int> result = teamContributionMultiplier(contributions);
-
-    cout << "Impact array: ";
-    for (int x : result) {
-        cout << x << " ";
-    }
-    cout << endl;
-    
-    return 0;
-}
